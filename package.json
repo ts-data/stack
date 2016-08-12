@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/ts-data/stack#readme",
   "devDependencies": {
-    "alsatian": "^1.0.0-alpha.6"
+    "alsatian": "^1.0.0-alpha.6",
+    "typescript": "^1.8.10"
   }
 }
