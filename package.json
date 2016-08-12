@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/ts-data/stack/issues"
   },
-  "homepage": "https://github.com/ts-data/stack#readme"
+  "homepage": "https://github.com/ts-data/stack#readme",
+  "devDependencies": {
+    "alsatian": "^1.0.0-alpha.6"
+  }
 }
