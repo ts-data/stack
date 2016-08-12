@@ -4,7 +4,7 @@
   "description": "The Stack (LIFO) data structure in TypeScript.",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && alsatian test.js"
+    "test": "tsc && alsatian \"test/*.test.js\""
   },
   "repository": {
     "type": "git",
