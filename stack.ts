@@ -4,12 +4,12 @@ export class Stack <TData> {
         return true;
     }
 
-    public push(value: any): void {
+    public push(value: TData): void {
 
     }
 
-    public pop(): any {
-
+    public pop(): TData {
+        return undefined;
     }
 
 }
