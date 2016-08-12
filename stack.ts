@@ -1,5 +1,9 @@
 export class Stack <TData> {
 
+    public count(): number {
+        return undefined;
+    }
+
     public isEmpty(): boolean {
         return true;
     }
