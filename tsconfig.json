@@ -20,6 +20,10 @@
         "typings/browser",
         "typings/browser.d.ts"
     ],
+    "filesGlob": [
+        "stack.ts",
+        "test/*.ts"
+    ],
     "compileOnSave": true,
     "buildOnSave": false,
     "atom": {
