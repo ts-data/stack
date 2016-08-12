@@ -1,4 +1,4 @@
-export class Stack {
+export class Stack <TData> {
 
     public isEmpty(): boolean {
         return true;
