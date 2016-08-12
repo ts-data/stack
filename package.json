@@ -1,0 +1,30 @@
+{
+  "name": "@ts-data/stack",
+  "version": "1.0.0",
+  "description": "The Stack (LIFO) data structure in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts-data/stack.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "data",
+    "structure",
+    "stack",
+    "LIFO"
+  ],
+  "author": {
+    "name": "James Monger",
+    "email": "jameskmonger@hotmail.co.uk",
+    "url": "www.jamesmonger.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ts-data/stack/issues"
+  },
+  "homepage": "https://github.com/ts-data/stack#readme"
+}
