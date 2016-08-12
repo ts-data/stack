@@ -4,7 +4,7 @@
   "description": "The Stack (LIFO) data structure in TypeScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc && alsatian test.js"
   },
   "repository": {
     "type": "git",
