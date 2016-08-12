@@ -12,7 +12,7 @@ export class IsEmptyTestFixture {
 
     @Test()
     public emptyStackShouldBeEmpty(): void {
-        let stack = new Stack();
+        let stack = new Stack<number>();
 
         // add a single element, then remove it again
         stack.push(5);
@@ -23,7 +23,7 @@ export class IsEmptyTestFixture {
 
     @Test()
     public stackWithOneItemShouldNotBeEmpty(): void {
-        let stack = new Stack();
+        let stack = new Stack<number>();
 
         // add a single element
         stack.push(5);
@@ -33,7 +33,7 @@ export class IsEmptyTestFixture {
 
     @Test()
     public stackWithTwoItemsShouldNotBeEmpty(): void {
-        let stack = new Stack();
+        let stack = new Stack<number>();
 
         // add a single element
         stack.push(5);
