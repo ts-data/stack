@@ -7,7 +7,7 @@ export class Stack <TData> {
     }
 
     public isEmpty(): boolean {
-        return true;
+        return this._topNode === undefined;
     }
 
     public push(value: TData): void {
