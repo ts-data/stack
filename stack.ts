@@ -27,6 +27,10 @@ export class Stack <TData> {
         return poppedNode.data;
     }
 
+    public peek(): TData {
+        return this._topNode.data;
+    }
+
 }
 
 class Node<T> {
