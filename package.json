@@ -2,9 +2,10 @@
   "name": "@ts-data/stack",
   "version": "1.0.0",
   "description": "The Stack (LIFO) data structure in TypeScript.",
-  "main": "index.js",
+  "main": "stack.js",
   "scripts": {
-    "test": "tsc && alsatian \"test/*.test.js\""
+    "test": "tsc && alsatian \"test/*.test.js\"",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
