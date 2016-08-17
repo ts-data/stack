@@ -1,9 +1,10 @@
 export class Stack <TData> {
 
     private _topNode: Node<TData> = undefined;
+    private _count: number = 0;
 
     public count(): number {
-        return undefined;
+        return this._count;
     }
 
     public isEmpty(): boolean {
@@ -14,6 +15,7 @@ export class Stack <TData> {
         // create a new Node and add it to the top
         let node = new Node<TData>(value, this._topNode);
         this._topNode = node;
+        this._count++;
     }
 
     public pop(): TData {
@@ -21,7 +23,7 @@ export class Stack <TData> {
         // the node at the top now is the one before it
         let poppedNode = this._topNode;
         this._topNode = poppedNode.previous;
-
+        this._count--;
         return poppedNode.data;
     }
 
