@@ -1,4 +1,4 @@
-export class Stack<TData> {
+export default class Stack<TData> {
     public count(): number;
     public isEmpty(): boolean;
     public push(value: TData): void;

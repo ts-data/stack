@@ -1,5 +1,5 @@
 import { Expect, TestCase } from "alsatian";
-import { Stack } from "../stack";
+import Stack from "../stack";
 
 export class PushPopTestFixture {
 
