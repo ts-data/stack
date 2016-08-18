@@ -1,6 +1,6 @@
 {
   "name": "ts-data.stack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The Stack (LIFO) data structure in TypeScript.",
   "main": "stack.js",
   "typings": "stack.d.ts",
