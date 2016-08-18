@@ -8,7 +8,7 @@ A [stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)) implemented 
 
 ## Usage
 
-    import { Stack } from "ts-data.stack";
+    import Stack from "ts-data.stack";
 
     let stack = new Stack<number>();
 
