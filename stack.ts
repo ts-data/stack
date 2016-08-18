@@ -1,4 +1,4 @@
-export default class Stack <TData> {
+export default class Stack<TData> {
 
     private _topNode: Node<TData> = undefined;
     private _count: number = 0;
