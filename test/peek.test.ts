@@ -1,5 +1,5 @@
 import { Expect, Test } from "alsatian";
-import { Stack } from "../stack";
+import Stack from "../stack";
 
 export class PeekTestFixture {
 
