@@ -3,12 +3,14 @@
   "version": "1.0.2",
   "description": "The Stack (LIFO) data structure in TypeScript.",
   "main": "stack.js",
+  "typings": "stack.d.ts",
   "scripts": {
     "test": "tsc && alsatian \"test/*.test.js\"",
     "prepublish": "tsc"
   },
   "files": [
-    "stack.js"
+    "stack.js",
+    "stack.d.ts"
   ],
   "repository": {
     "type": "git",
